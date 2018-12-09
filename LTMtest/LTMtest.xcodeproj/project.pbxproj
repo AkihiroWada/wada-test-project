@@ -12,6 +12,7 @@
 		26A0722321BCF36700AF32ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A0722121BCF36700AF32ED /* Main.storyboard */; };
 		26A0722521BCF36800AF32ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A0722421BCF36800AF32ED /* Assets.xcassets */; };
 		26A0722821BCF36800AF32ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A0722621BCF36800AF32ED /* LaunchScreen.storyboard */; };
+		26A0723121BCF47300AF32ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A0723021BCF47300AF32ED /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		26A0722421BCF36800AF32ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26A0722721BCF36800AF32ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26A0722921BCF36800AF32ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A0723021BCF47300AF32ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A0723121BCF47300AF32ED /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				26A0721C21BCF36700AF32ED /* LTMtest */,
 				26A0721B21BCF36700AF32ED /* Products */,
+				26A0722F21BCF47300AF32ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				26A0722921BCF36800AF32ED /* Info.plist */,
 			);
 			path = LTMtest;
+			sourceTree = "<group>";
+		};
+		26A0722F21BCF47300AF32ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A0723021BCF47300AF32ED /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
