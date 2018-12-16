@@ -13,6 +13,7 @@
 		26A0722521BCF36800AF32ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A0722421BCF36800AF32ED /* Assets.xcassets */; };
 		26A0722821BCF36800AF32ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A0722621BCF36800AF32ED /* LaunchScreen.storyboard */; };
 		26A0723121BCF47300AF32ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A0723021BCF47300AF32ED /* MapKit.framework */; };
+		26A0725121BD1A6A00AF32ED /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0725021BD1A6A00AF32ED /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		26A0722721BCF36800AF32ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26A0722921BCF36800AF32ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26A0723021BCF47300AF32ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		26A0725021BD1A6A00AF32ED /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				26A0721D21BCF36700AF32ED /* AppDelegate.swift */,
 				26A0721F21BCF36700AF32ED /* ViewController.swift */,
+				26A0725021BD1A6A00AF32ED /* InputViewController.swift */,
 				26A0722121BCF36700AF32ED /* Main.storyboard */,
 				26A0722421BCF36800AF32ED /* Assets.xcassets */,
 				26A0722621BCF36800AF32ED /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A0725121BD1A6A00AF32ED /* InputViewController.swift in Sources */,
 				26A0722021BCF36700AF32ED /* ViewController.swift in Sources */,
 				26A0721E21BCF36700AF32ED /* AppDelegate.swift in Sources */,
 			);
